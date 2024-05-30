@@ -46,7 +46,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1.5em;
     position: relative;
 }
 
@@ -103,6 +103,10 @@ nav ul li a:hover::after {
 
 .about-col-2 {
     flex-basis: 60%;
+}
+
+.about-col-2 p{
+    font-size: 1.2rem;
 }
 
 .sub-title {
@@ -173,7 +177,7 @@ nav ul li a:hover::after {
 .services-list div {
     background: #262626;
     padding: 40px;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -452,4 +456,13 @@ nav .fa-solid{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+
+.contact-right button{
+    transition: 0.5s;
+}
+
+.contact-right button:hover{
+    background-color: #fff;
+    color: #ff004f;
 }
